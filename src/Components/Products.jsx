@@ -37,7 +37,7 @@ const Products = () => {
                         </button>
                     </div>
                     <div>
-                        <video autoplay controls crossorigin="anonymous" data-testid="data-testid-VideoPlayer" loop="true" muted="" playsinline="">
+                        <video autoplay crossorigin="anonymous" data-testid="data-testid-VideoPlayer" loop="true" muted="" playsinline="">
                             <source src="https://videos.ctfassets.net/u1nb1km7t5q7/6OYv521nP7i1wAaGz5dhqP/c83a3696a09e71fa09c5a869f9b2c3cf/Aesop_Othertopias_2023_Web_Othertopias_Page_Secondary_4_Mid_Mobile_1920x1080px.mp4" type="video/mp4" />
 
                         </video>
