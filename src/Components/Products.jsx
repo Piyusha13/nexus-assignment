@@ -306,7 +306,7 @@ const Products = () => {
                     </div>
                 </div>
             </div>
-            <Slider {...settings2}>
+            <Slider {...settings2} className="d-d-none display-n">
                     <div className="">
                         <img style={{ width: '100vw' }} alt="An amber bottle of Ouranon Eau de Parfum alongside carton packaging. " src="https://www.aesop.com/u1nb1km7t5q7/4StXXhzwKgYMIFgTSIOgUk/8c3406be7d5c1194b0e267b773fa66e6/Aesop_MOKO_II_Mid_Desktop_2560x1440px.jpg" />
                     </div>

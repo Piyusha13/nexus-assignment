@@ -22,6 +22,10 @@ nav{
 }
 @media screen and (min-width: 768px) {
   
+.display-n{
+  display: none !important;
+ }
+  
   .pic1{
     position: absolute;
     top: 0%;
@@ -154,5 +158,5 @@ nav{
 
 
 .mob-navbar,.d-d-none{
-  display: none;
+  display: none ;
 }
