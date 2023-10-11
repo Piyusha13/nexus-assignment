@@ -275,7 +275,7 @@ const Products = () => {
                             </i>
                         </button>
                     </div>
-                    <div className="w-50 p4-slider">
+                    <div className=" m-d-none w-50 p4-slider">
                         <Slider {...settings2}>
                             <div>
                                 <img style={{ width: '100%' }} alt="Aesop MOKO store exteriors" loading="lazy" src="https://www.aesop.com/u1nb1km7t5q7/4StXXhzwKgYMIFgTSIOgUk/8c3406be7d5c1194b0e267b773fa66e6/Aesop_MOKO_II_Mid_Desktop_2560x1440px.jpg" />
@@ -306,6 +306,32 @@ const Products = () => {
                     </div>
                 </div>
             </div>
+            <Slider {...settings2}>
+                    <div className="">
+                        <img style={{ width: '100vw' }} alt="An amber bottle of Ouranon Eau de Parfum alongside carton packaging. " src="https://www.aesop.com/u1nb1km7t5q7/4StXXhzwKgYMIFgTSIOgUk/8c3406be7d5c1194b0e267b773fa66e6/Aesop_MOKO_II_Mid_Desktop_2560x1440px.jpg" />
+                    </div>
+                    <div>
+                        <img style={{ width: '100vw' }} alt="An amber bottle of Ouranon Eau de Parfum alongside carton packaging. " loading="lazy" src="https://www.aesop.com/u1nb1km7t5q7/6fS7KvwhtoYYrcc6zwJilY/4e2cb9b2e23b98648aae11ae7d0fa4e0/Aesop_Fragrance_Ouranon_Eau_de_Parfum_50mL_Web_Front_Large_900x878px.png" />
+                    </div>
+
+                    <div>
+                        <img style={{ width: '100vw' }} alt="An amber bottle of Ouranon Eau de Parfum alongside carton packaging. " loading="lazy" src="https://www.aesop.com/u1nb1km7t5q7/5vuGB9OlPfCwhd0di4sqjF/8c66786e2c82846e7e86c2e234c7c0e5/Aesop_Kits_Parsley_Seed_Anti-Oxidant_Skin_Care_Kit_Web_Large_1584x962px.png" />
+                    </div>
+
+                    <div>
+                        <img style={{ width: '100vw' }} alt="An amber bottle of Ouranon Eau de Parfum alongside carton packaging. " loading="lazy" src="https://www.aesop.com/u1nb1km7t5q7/6fS7KvwhtoYYrcc6zwJilY/4e2cb9b2e23b98648aae11ae7d0fa4e0/Aesop_Fragrance_Ouranon_Eau_de_Parfum_50mL_Web_Front_Large_900x878px.png" />
+                    </div>
+
+                    <div>
+                        <img style={{ width: '100vw' }} alt="An amber bottle of Ouranon Eau de Parfum alongside carton packaging. " loading="lazy" src="https://www.aesop.com/u1nb1km7t5q7/5vuGB9OlPfCwhd0di4sqjF/8c66786e2c82846e7e86c2e234c7c0e5/Aesop_Kits_Parsley_Seed_Anti-Oxidant_Skin_Care_Kit_Web_Large_1584x962px.png" />
+                    </div>
+                    <div>
+                        <img style={{ width: '100vw' }} alt="An amber bottle of Ouranon Eau de Parfum alongside carton packaging. " loading="lazy" src="https://www.aesop.com/u1nb1km7t5q7/6fS7KvwhtoYYrcc6zwJilY/4e2cb9b2e23b98648aae11ae7d0fa4e0/Aesop_Fragrance_Ouranon_Eau_de_Parfum_50mL_Web_Front_Large_900x878px.png" />
+                    </div>
+                    <div>
+                        <img style={{ width: '100vw' }} alt="An amber bottle of Ouranon Eau de Parfum alongside carton packaging. " loading="lazy" src="https://www.aesop.com/u1nb1km7t5q7/6fS7KvwhtoYYrcc6zwJilY/4e2cb9b2e23b98648aae11ae7d0fa4e0/Aesop_Fragrance_Ouranon_Eau_de_Parfum_50mL_Web_Front_Large_900x878px.png" />
+                    </div>
+                </Slider>
             
             {/* pproduct6 */}
             <div className="my-5 py-5 products ">
