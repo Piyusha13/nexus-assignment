@@ -15,8 +15,8 @@ const HomeSlider = () => {
         <div>
             <Slider {...settings}>
                 <div className="slider-div text-white" style={{ color: 'white' }}>
-                    <div className=" slider-text text-white">
-                        <div>
+                    <div className=" slider-text sbg1 text-white">
+                        <div className="m-d-none">
                             <svg viewBox="0 0 489.7 154.3" width="120" style={{ fill: 'white', height: '40px', width: '120px' }}>
 
                                 <g >
@@ -37,9 +37,9 @@ const HomeSlider = () => {
                                 </g>
                             </svg>
                         </div>
-                        <div>
+                        <div >
                             <p>A new Othertopias fragrance </p>
-                            <p style={{fontSize:'2rem'}} >Ouranon Eau de Parfum</p>
+                            <p className="heading" >Ouranon Eau de Parfum</p>
                             <p style={{width:'88%'}} >A fragrance that evokes a silent monolith, the last vestige of a stone circle whose meaning has been lost to time—earthy minerality commingling with Frankincense, Hay and Myrrh.</p>
                             <button className="Discover-btn" >Discover Ouranon
                                 <i aria-hidden="true" >
@@ -58,8 +58,8 @@ const HomeSlider = () => {
                 </div>
                 <div>
                 <div className="slider-div text-white" style={{ color: 'white' }}>
-                    <div className=" slider-text text-white">
-                        <div>
+                    <div className=" slider-text sbg2 text-white">
+                        <div className="m-d-none">
                             <svg viewBox="0 0 489.7 154.3" width="120" style={{ fill: 'white', height: '40px', width: '120px' }}>
 
                                 <g >
@@ -82,7 +82,7 @@ const HomeSlider = () => {
                         </div>
                         <div>
                             <p>A new Othertopias fragrance </p>
-                            <p style={{fontSize:'2rem'}} >Ouranon Eau de Parfum</p>
+                            <p className="heading" >Ouranon Eau de Parfum</p>
                             <p style={{width:'88%'}} >A fragrance that evokes a silent monolith, the last vestige of a stone circle whose meaning has been lost to time—earthy minerality commingling with Frankincense, Hay and Myrrh.</p>
                             <button className="Discover-btn" >Discover Ouranon
                                 <i aria-hidden="true" >
@@ -97,13 +97,13 @@ const HomeSlider = () => {
                         </div>
                     </div>
 
-                    <img className="pic1"  style={{ width: '98.5vw', height: '500px' }} src="https://www.aesop.com/u1nb1km7t5q7/6gh1BfrwUWExsAYoI9MhxK/56b784ae98ed3421486a09e0c112bdea/Aesop_Bar_Soaps_2023_Web_Homepage_1_Primary_Full_Bleed_Desktop_2880x1044px.jpg" alt="pic2" />
+                    <img className="pic1 pic2"  style={{ width: '98.5vw', height: '500px' }} src="https://www.aesop.com/u1nb1km7t5q7/6gh1BfrwUWExsAYoI9MhxK/56b784ae98ed3421486a09e0c112bdea/Aesop_Bar_Soaps_2023_Web_Homepage_1_Primary_Full_Bleed_Desktop_2880x1044px.jpg" alt="pic2" />
                     </div>
                 </div>
                 <div>
                 <div className="slider-div text-black" style={{ color: 'black' }}>
-                    <div className=" slider-text text-black">
-                        <div>
+                    <div className=" slider-text sbg3 text-black">
+                        <div className="m-d-none">
                             <svg viewBox="0 0 489.7 154.3" width="120" style={{ fill: 'black', height: '40px', width: '120px' }}>
 
                                 <g >
@@ -126,7 +126,7 @@ const HomeSlider = () => {
                         </div>
                         <div>
                             <p>A new Othertopias fragrance </p>
-                            <p style={{fontSize:'2rem'}} >Ouranon Eau de Parfum</p>
+                            <p className="heading">Ouranon Eau de Parfum</p>
                             <p style={{width:'88%'}} >A fragrance that evokes a silent monolith, the last vestige of a stone circle whose meaning has been lost to time—earthy minerality commingling with Frankincense, Hay and Myrrh.</p>
                             <button className="Discover-btn" style={{color:'black', borderColor:'black'}} >Discover Ouranon
                                 <i aria-hidden="true" >
@@ -141,7 +141,7 @@ const HomeSlider = () => {
                         </div>
                     </div>
 
-                    <img className="pic1" style={{ right:0, width: '50vw', height: '500px', float: 'right' }} src="https://www.aesop.com/u1nb1km7t5q7/4SUhr7BGma03r1oHxGHgpY/736e8b4997372edbecf26d60044caabf/Aesop_PSAOIS_2023_Web_Homepage_Primary_50-50_Desktop_1440x1500px.jpg" alt="pic2" />
+                    <img className="pic1" style={{ right:0, width: '100vw', height: '500px', float: 'right' }} src="https://www.aesop.com/u1nb1km7t5q7/4SUhr7BGma03r1oHxGHgpY/736e8b4997372edbecf26d60044caabf/Aesop_PSAOIS_2023_Web_Homepage_Primary_50-50_Desktop_1440x1500px.jpg" alt="pic2" />
                 </div>
                 </div>
             </Slider>
