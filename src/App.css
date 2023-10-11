@@ -31,6 +31,9 @@ nav{
     top: 0%;
     z-index: -1;
   }
+  .product3 .text{
+    padding: 0px 3rem;
+  }
 }
 .Discover-btn{
   background-color: transparent;
