@@ -40,6 +40,7 @@ nav{
   border: 1px solid white;
   color: white;
   padding: 1.2rem;
+
 }
 .Discover-btn svg{
   margin-left: 5rem;
@@ -156,6 +157,13 @@ nav{
   }
   .product4 .slick-track{
     width: 80vw !important;
+  }
+  .Discover-btn{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
 }
 
